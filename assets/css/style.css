@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+    position: relative;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 40px;
+}
+
+.login
+.login:hover
+.login:active {
+   color: white;
+   text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 50px 80px 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .content .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .content .links .link
+.footer .content .links .link:hover
+.footer .content .links .link:active {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .direitos {
+    text-align: center;
+}
+
+.footer .content .endereço p {
+      margin: 0;
+}
+
+.footer .content .endereço {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
